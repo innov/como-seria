@@ -1,0 +1,23 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <meta charset="UTF-8" />  
+    <title>Demo Facebook</title>  
+</head>  
+<body>  
+    <h1>Demo Facebook</h1>  
+  
+    <div id="fb-root"></div>  
+    <script type="text/javascript" src="http://connect.facebook.net/es_ES/all.js"></script>  
+    <script type="text/javascript">  
+        FB.init({  
+            appId  : '381594881910851',  
+            status : true, // comprobar estado de login  
+            cookie : true, // habilitar cookies para permitir al servidor acceder a la sesión  
+            xfbml  : true, // renderizar código XFBML  
+            channelURL : 'http://innovafusion/fa/channel.html', // fichero channel.html  
+            oauth  : true // habilita OAuth 2.0  
+        });  
+    </script>  
+</body>  
+</html>  
